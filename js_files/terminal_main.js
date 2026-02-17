@@ -143,11 +143,7 @@ export const TerminalInfo = {
     const indexLine = `- INDEX [^][v]: ${AppState.historyIndex}`.padEnd(35, " ") + " ║";
 
     DOMElements.terminalInfo.textContent = `
-    ╔===========[TERMINAL INFO]===========╗
-    ║ ${indexLine}
-    ║ ${statusLine}
-    ║ ${commandLine}
-    ╚=====================================╝
+   
   `;
   }
 };
