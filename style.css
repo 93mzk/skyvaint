@@ -7,7 +7,7 @@ html {
   height: 100%;
   font-family: 'Source Code Pro', monospace;
   font-size: clamp(14px, 1.2vw, 18px);
-  background: #000;
+  background: #0000000c;
   color: #f4f4f4;
   box-sizing: border-box;
 }
