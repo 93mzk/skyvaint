@@ -1,4 +1,4 @@
-a// ===== DOM Elements =====
+// ===== DOM Elements =====
 
 export const DOMElements = {
   input: document.querySelector("input"),
