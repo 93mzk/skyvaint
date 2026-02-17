@@ -169,22 +169,38 @@ export const CommandHandler = {
           "experience - 'See how long I've been working for'\n\n" +
           "info - 'Personal details'\n\n" +
           "projects - 'List of major projects'\n\n" +
+          "games - 'List of contributed games'\n\n" +
           "contact - 'Get my contact links'\n\n" +
           "cls - 'Clears the terminal and history'\n\n" +
           "(Use the ↑ and ↓ keys in the terminal to navigate command history)\n\n";
         break;
 
+           
+
+      case "games": {
+  responseText = "\nCONTRIBUTED GAMES:\n\n" +
+          "\n200M+ Visits, 50K CCU Contributed, with game such as:\n\n" +
+            "- <a href='https://www.roblox.com/games/73257710123935/Poison-Treats' target='_blank'><b>Poison Treats - Peaked 21K CCU</b></a>\n\n" +
+          "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
+          "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
+           "- <b>Former Programmer at Indigo Studios/UX</b>\n\n";
+         // "- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'><b>HTML</b></a>\n\n" +
+        //  "- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank'><b>CSS</b></a>\n\n" +
+         // "- <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'><b>JavaScript</b></a>\n\n" +
+         // "- <a href='https://www.typescriptlang.org/' target='_blank'><b>TypeScript</b></a>\n\n" +
+        //  "- <a href='https://www.python.org/' target='_blank'><b>Python</b></a>\n\n" +
+      //    "- <a href='https://en.wikipedia.org/wiki/C_(programming_language)' target='_blank'><b>C</b></a>\n\n" +
+       //   "- <a href='https://en.wikipedia.org/wiki/C%2B%2B' target='_blank'><b>C++</b></a>\n\n";
+        break;
+}
+
       case "bio":
         responseText = `
 BIO:
 
-Hello, I'm g0ofycat! I'm a Fullstack Developer and Web Designer with over 5 years of experience.
+Hello, I'm skyvaint! I'm a Fullstack programmer, and UI/UX Deisnger with over 5 years of experience.
 
-My main language is Python, and I also work with Luau, HTML, CSS, JavaScript / TypeScript, C, and C++.
-
-I am currently exploring Machine Learning, AI, and NLP (Natural Language Processing).
-
-I specialize in areas such as Mechanics / Systems, UI/UX design, and many other projects among other fields!
+My main language is luau, and planning to expand to HTML, CSS, JavaScript, C, and C++.
     `;
         break;
 
@@ -192,14 +208,14 @@ I specialize in areas such as Mechanics / Systems, UI/UX design, and many other 
         responseText =
           "\nSTACK:\n\n" +
           "- <a href='https://www.lua.org/' target='_blank'><b>Lua</b></a>\n\n" +
-          "- <a href='https://www.luau.org/' target='_blank'><b>Luau</b></a>\n\n" +
-          "- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'><b>HTML</b></a>\n\n" +
-          "- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank'><b>CSS</b></a>\n\n" +
-          "- <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'><b>JavaScript</b></a>\n\n" +
-          "- <a href='https://www.typescriptlang.org/' target='_blank'><b>TypeScript</b></a>\n\n" +
-          "- <a href='https://www.python.org/' target='_blank'><b>Python</b></a>\n\n" +
-          "- <a href='https://en.wikipedia.org/wiki/C_(programming_language)' target='_blank'><b>C</b></a>\n\n" +
-          "- <a href='https://en.wikipedia.org/wiki/C%2B%2B' target='_blank'><b>C++</b></a>\n\n";
+          "- <a href='https://www.luau.org/' target='_blank'><b>Luau</b></a>\n\n" ;
+         // "- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'><b>HTML</b></a>\n\n" +
+        //  "- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank'><b>CSS</b></a>\n\n" +
+         // "- <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'><b>JavaScript</b></a>\n\n" +
+         // "- <a href='https://www.typescriptlang.org/' target='_blank'><b>TypeScript</b></a>\n\n" +
+        //  "- <a href='https://www.python.org/' target='_blank'><b>Python</b></a>\n\n" +
+      //    "- <a href='https://en.wikipedia.org/wiki/C_(programming_language)' target='_blank'><b>C</b></a>\n\n" +
+       //   "- <a href='https://en.wikipedia.org/wiki/C%2B%2B' target='_blank'><b>C++</b></a>\n\n";
         break;
 
       case "experience":
@@ -213,35 +229,38 @@ I specialize in areas such as Mechanics / Systems, UI/UX design, and many other 
         responseText =
           "\nINFO:\n\n" +
           "Age: <b>dm me on discord for it</b>\n\n" +
-          "Timezone: <b>EST</b>\n\n" +
-          "Region: <b>USA</b>\n\n" +
-          "Hiring Status: <a href='https://g0ofycat.github.io/AmIForHire/' target='_blank'>https://g0ofycat.github.io/AmIForHire/</a>\n\n";
-        break;
+          "Timezone: <b>GMT</b>\n\n" +
+          "Region: <b>Spain</b>\n\n" +
+          "Commissions Status: <b>Open</b>\n\n";
+          //"Hiring Status: <a href='https://g0ofycat.github.io/AmIForHire/' target='_blank'>https://g0ofycat.github.io/AmIForHire/</a>\n\n";
+      //  break;
 
       case "projects":
         responseText =
           "\nPROJECTS [LUAU]:\n\n" +
-          '- <a href="https://youtu.be/bD-lJHxu2uI" target="_blank">Match: ELO-based matchmaking system (open-sourced)</a>\n\n' +
-          '- <a href="https://youtu.be/fpKKOii6BRQ" target="_blank">NetworkService: Networking module with throttling & compression</a>\n\n' +
-          '- <a href="https://youtu.be/fvTjM8hxfj4" target="_blank">MNIST: Neural network for handwritten digits</a>\n\n' +
-          '- <a href="https://youtu.be/-LTlYfjOhj0" target="_blank">LuaBuffer: Low-level compression module using bitwise operators</a>\n\n' +
-          '- <a href="https://youtu.be/bNjPcCc6EzQ" target="_blank">GuildService: Guild/Clan creation system with Bit-Buffers</a>\n\n' +
-          '- <a href="https://youtu.be/8ygDUydN2uo" target="_blank">Custom Movement Engine: Simulates gravity, acceleration, and surfing</a>\n\n' +
-          "\nPROJECTS [PROGRAMMING]:\n\n" +
-          '- <a href="https://youtu.be/DtTOlYAf0Yg" target="_blank">DSA Minesweeper: C-based Minesweeper using matrices</a>\n\n' +
-          '- <a href="https://youtu.be/GDuFlnfwylM" target="_blank">3D Engine: Basic scalable 3D Engine made in C++ to render and simulate things. Also supports textures</a>\n\n' +
-          '- <a href="https://youtu.be/5C3OeCoaIQU" target="_blank">Neuron (Deep Learning Framework): Fast and Lightweight framework used for training Deep Neural Networks made in C++</a>\n\n' +
-          '- <a href="https://youtu.be/946x71SoFnQ" target="_blank">AI Transformer Architecture: Full Transformer in Python with NumPy</a>\n\n';
+            //'- <a href="https://youtu.be/fvTjM8hxfj4" target="_blank">MNIST: Neural network for handwritten digits</a>\n\n' +
+          '- <a href="https://streamable.com/kfzn45" target="_blank">Abilities / Movement System</a>\n\n' +
+          //'- <a href="https://streamable.com/kfzn45" target="_blank">Ki Charging System</a>\n\n' +
+          '- <a href="https://streamable.com/rdba25" target="_blank">Futuristic Loading Intro + Effects</a>\n\n' +
+          '- <a href="https://streamable.com/4p4gjh" target="_blank">Matchmaking Frontend Notifier</a>\n\n' +
+          '- <a href="https://streamable.com/q8810x" target="_blank">Ball Following Camera System</a>\n\n' +
+          '- <a href="https://streamable.com/civgrv" target="_blank">Custom Football Kicking Gameplay</a>\n\n' ;//
+
+         // "\nPROJECTS [PROGRAMMING]:\n\n" +
+       //   '- <a href="https://youtu.be/DtTOlYAf0Yg" target="_blank">DSA Minesweeper: C-based Minesweeper using matrices</a>\n\n' +
+        //  '- <a href="https://youtu.be/GDuFlnfwylM" target="_blank">3D Engine: Basic scalable 3D Engine made in C++ to render and simulate things. Also supports textures</a>\n\n' +
+         // '- <a href="https://youtu.be/5C3OeCoaIQU" target="_blank">Neuron (Deep Learning Framework): Fast and Lightweight framework used for training Deep Neural Networks made in C++</a>\n\n' +
+          //'- <a href="https://youtu.be/946x71SoFnQ" target="_blank">AI Transformer Architecture: Full Transformer in Python with NumPy</a>\n\n';
         break;
 
       case "contact":
         responseText =
           "\nCONTACT:\n\n" +
-          "Discord: <a href='https://discord.com/users/782012749693190176' target='_blank'>https://discord.com/users/782012749693190176</a>\n\n" +
-          "GitHub: <a href='https://github.com/g0ofycat' target='_blank'>https://github.com/g0ofycat</a>\n\n" +
-          "YouTube: <a href='https://www.youtube.com/channel/UC8YqlEzHti46V3A_Lz6inLQ' target='_blank'>https://www.youtube.com/channel/UC8YqlEzHti46V3A_Lz6inLQ</a>\n\n" +
-          "Twitter: <a href='https://x.com/g0ofycat' target='_blank'>https://x.com/g0ofycat</a>\n\n" +
-          "Email: <b>g0ofycatbusiness@gmail.com</b>\n\n";
+          "Discord: <a href='https://discord.com/users/1367774975045406801' target='_blank'>https://discord.com/users/1367774975045406801</a>\n\n" +
+          //"GitHub: <a href='https://github.com/g0ofycat' target='_blank'>https://github.com/g0ofycat</a>\n\n" +
+         // "YouTube: <a href='https://www.youtube.com/channel/UC8YqlEzHti46V3A_Lz6inLQ' target='_blank'>https://www.youtube.com/channel/UC8YqlEzHti46V3A_Lz6inLQ</a>\n\n" +
+          "Twitter: <a href='https://x.com/skyvaint' target='_blank'>https://x.com/skyvaint</a>\n\n" +
+          "Email: <b>skyvaint@gmail.com</b>\n\n";
         break;
 
       case "cls":
