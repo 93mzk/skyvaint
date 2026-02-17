@@ -69,7 +69,7 @@ export const loadingFrames = [
  `
 ];
 
-export const iconFrames = [``,];
+export const iconFrames = [` `,];
 
 export const artText = `
 ╔=====================================[ART]======================================╗

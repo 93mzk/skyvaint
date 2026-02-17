@@ -359,7 +359,7 @@ export const EventHandlers = {
   }
 };
 
-// ===== Matrix Rain =====
+// ===== Matrix Rain == ===
 
 export const createMatrixRain = (canvasId = "MatrixRainID") => {
   const canvas = document.getElementById(canvasId);
