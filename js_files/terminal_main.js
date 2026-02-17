@@ -426,7 +426,6 @@ export class Terminal {
   }
 
   async init() {
-    //createMatrixRain()
     AnimationController.animateCat(this.contentData.iconFrames);
     AnimationController.animateLoadingBar(this.contentData.paragraph.length / 4, this.contentData.loadingFrames);
 
