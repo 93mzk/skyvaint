@@ -179,11 +179,11 @@ export const CommandHandler = {
 
       case "games": {
   responseText = "\nCONTRIBUTED GAMES:\n\n" +
-          "\n200M+ Visits, 50K CCU Contributed, with game such as:\n\n" +
+          "\n200M+ Visits, 30K CCU Contributed, with game such as:\n\n" +
             "- <a href='https://www.roblox.com/games/73257710123935/Poison-Treats' target='_blank'><b>Poison Treats - Peaked 21K CCU</b></a>\n\n" +
+         // "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
           "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
-          "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
-           "- <b>Former Programmer at Indigo Studios/UX</b>\n\n";
+           "- <b>Former Programmer at Indigo Studios</b>\n\n";
          // "- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'><b>HTML</b></a>\n\n" +
         //  "- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank'><b>CSS</b></a>\n\n" +
          // "- <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'><b>JavaScript</b></a>\n\n" +
@@ -198,7 +198,7 @@ export const CommandHandler = {
         responseText = `
 BIO:
 
-Hello, I'm skyvaint! I'm a Fullstack programmer, and UI/UX Deisnger with over 5 years of experience.
+Hello, I'm skyvaint! I'm a Fullstack programmer, and UI/UX Designer with over 5 years of experience.
 
 My main language is luau, and planning to expand to HTML, CSS, JavaScript, C, and C++.
     `;
@@ -222,7 +222,7 @@ My main language is luau, and planning to expand to HTML, CSS, JavaScript, C, an
         responseText =
           "\nEXPERIENCE:\n\n" +
           "- <b>5 Years of Programming</b>\n\n" +
-          "- <b>2 Years UI/UX</b>\n\n"
+          "- <b>3 Years UI/UX</b>\n\n"
         break;
 
       case "info":
