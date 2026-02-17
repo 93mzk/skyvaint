@@ -179,7 +179,7 @@ export const CommandHandler = {
 
       case "games": {
   responseText = "\nCONTRIBUTED GAMES:\n\n" +
-          "\n200M+ Visits, 30K CCU Contributed, with game such as:\n\n" +
+          "\n200M+ Visits, 30K CCU Contributed, with games such as:\n\n" +
             "- <a href='https://www.roblox.com/games/73257710123935/Poison-Treats' target='_blank'><b>Poison Treats - Peaked 21K CCU</b></a>\n\n" +
          // "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
           "- <a href='https://www.roblox.com/games/103481122176780/Scary-Worm-Tower' target='_blank'><b>Scary Worm Tower - Peaked 10K CCU</b></a>\n\n" +
